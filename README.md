@@ -1,24 +1,24 @@
-# Tkinter-Hash-Table-App
-This is a simple graphical user interface (GUI) for demonstrating hash table operations, built using Tkinter in Python. The application allows users to add, search, and delete values in a hash table with different hashing algorithms.
+# HashTableGUI
+This repository contains three Python GUI applications demonstrating hash table implementations with different functionalities, built using Tkinter.
 
-## Features
+## Projects
+### 1. Basic Hash Table GUI
+A simple hash table implementation where users can:
 
-Hash Table Operations: Add, search, and delete values from the hash table.
-Hash Functions:
-Python's built-in hash() function.
-Middle Square Hash.
-Transformation Radix Hash.
-Collision Handling: Linear probing is used to resolve hash collisions.
-Treeview Table: Displays the current state of the hash table in a dynamic table.
+Add, search for, and delete values.
+Choose from multiple hash functions (hash, middle-square hash, and transformation radix).
+Handle collisions using linear probing.
 
-## Requirements
+### 2. Key-Value Hash Table GUI
+An extended version that supports:
 
-Python 3.x
-Tkinter (built-in with Python)
+Adding, searching for, and deleting key-value pairs.
+Collision handling using linear probing.
+A simple hash function based on the sum of ASCII values of characters in the key.
 
-## How It Works
+### 3. Improved Key-Value Hash Table GUI
+An enhanced version of the key-value hash table that includes:
 
-Adding Values: Enter a value in the input field and press "Add". The value will be hashed using the selected hash function and inserted into the hash table.
-Searching Values: Enter a value and press "Search" to find the location of the value in the table.
-Deleting Values: Enter a value and press "Delete" to remove it from the table.
-Selecting Hash Function: Choose between the built-in Python hash, the Middle Square hash, or the Transformation Radix hash from the drop-down menu.
+A GUI for entering key-value pairs with improved layout.
+Additional error handling for input validation.
+A more structured approach to managing the hash table and its interactions.
